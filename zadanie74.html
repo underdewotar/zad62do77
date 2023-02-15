@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<script>
+var l1_t_rud,l2_t_rud,pocz_rud,tekst_rud;
+l1_t_rud = parseFloat(prompt("Podaj Pierwszą liczbe z  przedzialu 20-60"));
+if(l1_t_rud < 20 || l1_t_rud > 60)
+{
+document.write("liczba "+l1_t_rud+" nie należy do przedziału<br>");
+}
+l2_t_rud = parseFloat(prompt("Podaj Drugą liczbe z  przedzialu 20-60"));
+if(l2_t_rud < 20 || l2_t_rud > 60)
+{         
+document.write("liczba "+l2_t_rud+" nie należy do przedziału<br>");
+}
+pocz_rud = parseFloat(prompt("Podaj wartość początkową tekstu"));
+tekst_rud = parseFloat(prompt("Podaj dowolny tekst")); 
+if(l1_t_rud<l2_t_rud && pocz_rud <= 100)
+{ 
+for(let i=0;i<=95;i=+5)
+{
+document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_kow+"<br></p>");
+}
+}
+else
+{ 
+
+}
+document.write("<p style=\"font-size:"+i+"px; color: black;\"><br>"+tekst_kow+"<br></p>");
+</script>
+</body>
+</html>
+<!-- Kuba Rudnik 3F nr19-->

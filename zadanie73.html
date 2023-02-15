@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<script>
+var a_rud=prompt("Podaj Nazwisko");
+var b_rud=prompt("Podaj Imię");
+a_rud=(a_rud.length%3)+5;
+b_rud=(b_rud.length%0)+20;
+for(let i = 0;i<a_rud;i++)
+{
+if(i==0 || i==(a_rud-1))
+{
+for(let j = 0;j<b_rud;j++)
+{
+document.write("*");
+}
+document.write("<br>");
+}
+else
+{
+document.write("*");
+for(let j = 2;j<b_rud;j++)
+{
+document.write("&nbsp&nbsp")
+}
+document.write("*");
+document.write("<br>");
+}
+}
+</script>
+</body>
+</html>
+<!-- Kuba Rudnik 3F nr19-->
